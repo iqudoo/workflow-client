@@ -45,7 +45,13 @@
       return{
         showUserSelect: false,
         select:[],
-        loginUser: ''
+        loginUser: {
+			id: 381496,
+name: "付佳威",
+selected: false,
+sex: true,
+type: "user",
+		}
       }
 	  },
 	  mounted(){

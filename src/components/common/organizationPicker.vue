@@ -30,7 +30,7 @@
                     <i class="el-icon-folder-opened" v-if="node.type === 'dept'"></i>
                     <div class="avt" :style="'background: ' + getAvatarColor()"
                          v-else-if="node.avatar === undefined || node.avatar === ''">
-                      {{node.name.length > 2 ? node.name.substring(1,3) : node.name}}
+                      <!-- {{node.name.length > 2 ? node.name.substring(1,3) : node.name}} -->
                     </div>
 										<img :src="node.avatar" style="border-radius: 50%; display:inline-block;" width="35" height="35"
 										     v-else/>
